@@ -19,8 +19,8 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "28753878"))
+API_HASH = getenv("API_HASH", "4b2ea871446ca9dc180e2fa4c4788ac6")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = getenv("OWNER_ID", None)
 SEXY  = [int(g), int(gg), int(OWNER_ID)]
